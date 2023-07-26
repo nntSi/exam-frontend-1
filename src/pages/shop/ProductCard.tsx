@@ -86,10 +86,10 @@ const ProductCard = ({ product }: Props) => {
         isOpen={isOpenModal}
         onClickBackdrop={() => setIsOpenModal(false)}
         child={
-          <div className="bg-white w-[960px] rounded-sm">
-            <div className="grid grid-cols-7 gap-8">
-              <div className="col-span-3 p-8 flex items-center">
-                <img src={product.image} className="w-full" />
+          <div className="bg-white sm:w-[960px] rounded-sm">
+            <div className="sm:grid grid-cols-7 gap-8">
+              <div className="col-span-3 p-8 flex items-center justify-center sm:justify-start">
+                <img src={product.image} className="w-1/3 sm:w-full" />
               </div>
               <div className="col-span-4 p-8 bg-zinc-50 border-l border-zinc-200/40">
                 <div className="border-b-2 border-dashed pb-4">
