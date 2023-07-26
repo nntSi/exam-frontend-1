@@ -2,7 +2,7 @@ import NavBar from "./components/NavBar";
 import { Routes, Route } from "react-router-dom";
 import Shop from "./pages/shop/Shop";
 import BreadCrumb from "./components/BreadCrumb";
-import Footer from "./components/Footer";
+/* import Footer from "./components/Footer"; */
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
           <Route path="/" element={<Shop />} />
         </Routes>
       </div>
-      <Footer/>
+      {/* <Footer/> */}
     </div>
   );
 }
