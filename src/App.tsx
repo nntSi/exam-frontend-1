@@ -9,7 +9,7 @@ function App() {
     <div>
       <NavBar />
       <BreadCrumb/>
-      <div className="px-4 sm:px-14 md:px-16 lg:px-24 xl:px-48 pt-12 pb-12">
+      <div className="px-6 sm:px-14 md:px-16 lg:px-24 xl:px-48 pt-12 pb-12">
         <Routes>
           <Route path="/" element={<Shop />} />
         </Routes>

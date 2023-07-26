@@ -24,7 +24,7 @@ const TopBar = () => {
         <button>
           <i className="bx bx-list-ul text-xl text-zinc-300"></i>
         </button>
-        <p className="text-xs text-zinc-500">
+        <p className="text-xs text-zinc-500 hidden sm:block">
           Showing all {stores.length} results
         </p>
       </div>

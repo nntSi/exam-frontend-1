@@ -21,7 +21,7 @@ const Shop = () => {
       </div>
       <div className="col-span-12 sm:col-span-9 xl:col-span-10 space-y-10">
         <TopBar />
-        <div className="grid grid-cols-2 sm:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-8">
+        <div className="grid grid-cols-2 sm:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-6 sm:gap-8">
           {isLoading &&
             productCardSkeletonNumber.map((item) => (
               <ProductCardSkeleton key={item} />
